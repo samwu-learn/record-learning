@@ -10,3 +10,16 @@ ll,ls 当前文件夹的目录
 python xxx.py (运行 python)
 用vim打开文件 vi xxx.py
 q:!  不保存退出文件(vim)
+
+
+
+import argparse
+parser = argparse.ArgumentParser(description='feature extract')
+parser.add_argument('--filein', type=str, default='complete_train_20211021ad')
+parser.add_argument('--pb_path', type=str, default='other_20211114.pb')
+parser.add_argument('--gpu_card', type=str, default='3')
+args = parser.parse_args()
+
+print(parser.description) #'feature extract'
+print(args.filein) #'complete_train_20211021ad'
+print(args.pb_path) #'other_20211114.pb'
