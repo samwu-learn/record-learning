@@ -24,3 +24,11 @@ args = parser.parse_args()
 print(parser.description) #'feature extract'
 print(args.filein) #'complete_train_20211021ad'
 print(args.pb_path) #'other_20211114.pb'
+
+
+
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
+当os.environ["TF_CPP_MIN_LOG_LEVEL"]=0的时候，输出信息：INFO + WARNING + ERROR + FATAL
+当os.environ["TF_CPP_MIN_LOG_LEVEL"]=1的时候，输出信息：WARNING + ERROR + FATAL
+当os.environ["TF_CPP_MIN_LOG_LEVEL"]=2的时候，输出信息：ERROR + FATAL
+当os.environ["TF_CPP_MIN_LOG_LEVEL"]=3的时候，输出信息：FATAL(其他信息全部不报了)
