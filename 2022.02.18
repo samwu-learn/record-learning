@@ -10,9 +10,9 @@ ll,ls 当前文件夹的目录
 python xxx.py (运行 python)
 用vim打开文件 vi xxx.py
 q:!  不保存退出文件(vim)
-
+Ctrl+c: 退出当前命令
 下载文件：在文件夹目录下 Ctrl+x+x，会提示一个链接，点击后，选择下载
-
+复制内容： cp -r /home/admin/*  /explor/wuyang/  把/home/admin里所有的文件全部复制到/explor/wuyang中(/*选取所有文件)
 
 import argparse
 parser = argparse.ArgumentParser(description='feature extract')
