@@ -11,6 +11,7 @@ python xxx.py (运行 python)
 用vim打开文件 vi xxx.py
 q:!  不保存退出文件(vim)
 
+下载文件：在文件夹目录下 Ctrl+x+x，会提示一个链接，点击后，选择下载
 
 
 import argparse
