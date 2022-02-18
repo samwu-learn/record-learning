@@ -1,7 +1,12 @@
-ssh wuyang150@bastion.jd.com
-输入ip选机子
-ssh admin@ip (ip= 11.7.158.36)
-密码+ekUGUpR!w7ub5?rup
+如何进入堡垒机(服务器)
+ssh xxx@bastion xxx
+输入ip选机子(11.xxxxxx)
+ssh admin@ip (ip= xx.xx.xx.xxx)
+密码 xxx
 
-
-代码 /home/admin/dongyuxin/dataset/202104/other_model_eval/whole_data-v2
+linux操作
+cd /home/admin 进入admin文件(路径是/home/admin)
+ll,ls 当前文件夹的目录
+python xxx.py (运行 python)
+用vim打开文件 vi xxx.py
+q:!  不保存退出文件(vim)
